@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="The site was developed as part of studying at Geekbrains">
    <title>Interior Design Website</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,400;0,500;1,400;1,500&display=swap"
       rel="stylesheet">
 </head>
-
 <body>
    <header class="header center">
       <div class="header__logo">
@@ -136,7 +135,6 @@
       <p class="blog__text">It is a long established fact that a reader will be distracted by the of readable content of
          a page when lookings at its layouts the points of using.</p>
       <div class="blog__items">
-
          <div v-for="(article, index) in articles" v-if="index < 3" class="blog__item">
             <div class="blog__item-image">
                <img :src="'image/' + article.image" :alt="article.image">
